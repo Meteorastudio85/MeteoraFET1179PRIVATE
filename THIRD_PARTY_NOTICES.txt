@@ -1,0 +1,20 @@
+meteoraFET1179 - note sul software di terze parti
+=================================================
+
+Source/AirwindowsLogical4.h, AirwindowsCoils2.h, AirwindowsTube2.h
+Porting in C++ degli algoritmi "Logical4", "Coils2" e "Tube2" di Airwindows (Chris Johnson)
+https://www.airwindows.com - i sorgenti originali riportano: "Airwindows uses the MIT license".
+Logical4 e' stato modificato (attack e release separati, stadio C con divisore coerente).
+
+MIT License
+Copyright (c) airwindows (Chris Johnson)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to the following
+conditions: The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+JUCE (scaricato durante la compilazione) - AGPLv3 o licenza commerciale, vedi juce.com
